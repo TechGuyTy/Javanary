@@ -38,7 +38,7 @@
 			List<User> users = DAO.getAllUsers();
 
 			for (User u : users) {
-				out.println("<div class=\"comment_div \"><p class=\"name\">Posted By:" + u.getName()
+				out.println("<div class=\"comment_div img-responsive\"><p class=\"name\">Posted By:" + u.getName()
 						+ "</p><p class=\"comment\"><wbr>" + u.getPassword() + "<span></p><p class=\"time\">"
 						+ "  <span class=\"link-icon\"><a href=\"" + u.getFullname() + "\">" + u.getEmail()
 						+ "</a><span></p></div>");
